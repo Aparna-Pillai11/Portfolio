@@ -1,0 +1,67 @@
+/* Main container for the contact page */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Content wrapper for the contact details */
+  .contact-content {
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title of the contact page */
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1e90ff;
+  }
+  
+  /* Description under the title */
+  .contact-description {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the contact details section */
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Individual contact item styling */
+  .contact-item {
+    text-align: left;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .contact-item h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
+  .contact-item p {
+    margin-top: 5px;
+  }
+  
+  .contact-item a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
